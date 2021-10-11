@@ -29,9 +29,8 @@
 input::-webkit-calendar-picker-indicator {
   display: none;
 }
-input {
-  -webkit-appearance: none;
-}
+input,
 select {
+  -webkit-appearance: none;
   background: transparent;
 }

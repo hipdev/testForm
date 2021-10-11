@@ -8,10 +8,10 @@ const Layout = ({ children }) => {
     <>
       <HeadPage />
       <div className="grid grid-cols-1 sm:grid-cols-2 ">
-        <section className="h-64 mt-10 sm:mt-auto sm:h-full">
+        <section className="mt-10 sm:mt-auto sm:h-full">
           <img
             data-src="/background.jpg"
-            className="w-full h-full lazyload object-cover"
+            className="h-64 w-full sm:h-full sm:w-auto sm:min-h-screen lazyload object-cover"
             alt="Background medicines"
             src="/bg-optimized.jpg"
           />
