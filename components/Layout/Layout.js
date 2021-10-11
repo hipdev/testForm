@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <section className="h-64 mt-10 sm:mt-auto sm:h-full">
           <img
             data-src="/background.jpg"
-            className="w-full h-full min-h-screen lazyload  object-cover"
+            className="w-full h-full lazyload object-cover"
             alt="Background medicines"
             src="/bg-optimized.jpg"
           />
