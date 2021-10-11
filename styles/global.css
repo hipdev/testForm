@@ -29,3 +29,9 @@
 input::-webkit-calendar-picker-indicator {
   display: none;
 }
+input {
+  -webkit-appearance: none;
+}
+select {
+  background: transparent;
+}
