@@ -6,7 +6,7 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 ## Preview
 
-Preview the example live on [Velcel](http://stackblitz.com/):
+Preview the example live on [Velcel](https://test-form-tau.vercel.app/):
 
 ## Stack
 
