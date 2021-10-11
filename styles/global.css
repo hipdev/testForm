@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.btn-primary {
+  @apply font-semibold bg-primary text-secondary px-2 py-2 rounded-md;
+}
+.title {
+  @apply text-center mt-5 mb-7 sm:mt-16 text-4xl text-secondary;
+  font-family: 'DM Serif Display', serif;
+}
+/* Forms  */
+.form-label {
+  @apply block text-secondary font-semibold mb-1 text-lg;
+}
+.form-input {
+  @apply border border-gray-300 rounded-md w-full px-2 mb-2 text-gray-700;
+  box-shadow: 0px 1px 3px #e3e3e3;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.custom-radio:checked + label {
+  @apply bg-primary text-secondary border-primary;
+}
+
+/* Hide native calendar */
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
