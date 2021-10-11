@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SelectUSAStates from 'components/common/SelectUsaStates'
+import SelectUSAStates from 'components/common/SelectUSAStates'
 import SelectGender from './WelcomeSelectGender'
 import { Controller, useForm } from 'react-hook-form'
 import ErrorField from 'components/common/ErrorField'
